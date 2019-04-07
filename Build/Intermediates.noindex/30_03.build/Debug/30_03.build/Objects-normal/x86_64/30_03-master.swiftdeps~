@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "47415d71a865c05b2a89d5f8db79ecd7"
+build_time: [1554650844, 813410000]
+inputs:
+  "/Users/valeri/\u0426\u0424\u0422_ios_2019/30_03_carTask/30_03/30_03/\u0421arDirectory.swift": [1554650838, 282891374]
+  "/Users/valeri/\u0426\u0424\u0422_ios_2019/30_03_carTask/30_03/30_03/Commands.swift": [1554549061, 31036045]
+  "/Users/valeri/\u0426\u0424\u0422_ios_2019/30_03_carTask/30_03/30_03/Car.swift": [1554650820, 4401265]
+  "/Users/valeri/\u0426\u0424\u0422_ios_2019/30_03_carTask/30_03/30_03/UserConnection.swift": [1554650761, 829168189]
+  "/Users/valeri/\u0426\u0424\u0422_ios_2019/30_03_carTask/30_03/30_03/CarStorage.swift": [1554650827, 765172736]
+  "/Users/valeri/\u0426\u0424\u0422_ios_2019/30_03_carTask/30_03/30_03/main.swift": [1554650811, 580754839]

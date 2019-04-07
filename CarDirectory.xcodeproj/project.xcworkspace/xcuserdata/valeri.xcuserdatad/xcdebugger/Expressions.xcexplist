@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CarStorage.load():CarStorage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fileURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CarStorage.append(car:):CarStorage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cars">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "&#x421;arDirectory.addCar():&#x421;arDirectory.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cars">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

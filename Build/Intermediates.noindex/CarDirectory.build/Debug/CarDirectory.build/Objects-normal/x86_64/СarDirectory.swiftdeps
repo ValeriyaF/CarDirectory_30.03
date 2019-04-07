@@ -1,0 +1,81 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "\u0421arDirectory"
+provides-nominal:
+- "12CarDirectory0015arDirectory_sdjC"
+provides-member:
+- ["12CarDirectory0015arDirectory_sdjC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CarStorage"
+- !private "Commands"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "UserConnection"
+- !private "exit"
+- "\u0421arDirectory"
+depends-member:
+- !private ["12CarDirectory0A7StorageC", "append"]
+- !private ["12CarDirectory0A7StorageC", "cars"]
+- !private ["12CarDirectory0A7StorageC", "modify"]
+- !private ["12CarDirectory0A7StorageC", "remove"]
+- ["12CarDirectory8CommandsO", "addCar"]
+- ["12CarDirectory8CommandsO", "close"]
+- ["12CarDirectory8CommandsO", "removeCar"]
+- ["12CarDirectory8CommandsO", "showAllCars"]
+- ["12CarDirectory8CommandsO", "updateCar"]
+- ["SQ", "addCar"]
+- ["SQ", "close"]
+- ["SQ", "removeCar"]
+- ["SQ", "showAllCars"]
+- ["SQ", "updateCar"]
+- ["SH", "addCar"]
+- ["SH", "close"]
+- ["SH", "removeCar"]
+- ["SH", "showAllCars"]
+- ["SH", "updateCar"]
+- !private ["12CarDirectory14UserConnectionC", "getCurrentCar"]
+- !private ["12CarDirectory14UserConnectionC", "getNewCar"]
+- !private ["12CarDirectory14UserConnectionC", "getUserComand"]
+- ["12CarDirectory14UserConnectionC", "init"]
+- !private ["12CarDirectory14UserConnectionC", "printSuccessMsg"]
+- !private ["12CarDirectory14UserConnectionC", "printWrongMsg"]
+- !private ["12CarDirectory14UserConnectionC", "showAllCars"]
+- !private ["12CarDirectory14UserConnectionC", "showHelp"]
+- ["12CarDirectory0015arDirectory_sdjC", "CarStorage"]
+- !private ["12CarDirectory0015arDirectory_sdjC", "Commands"]
+- ["12CarDirectory0015arDirectory_sdjC", "UserConnection"]
+- !private ["12CarDirectory0015arDirectory_sdjC", "carStorage"]
+- !private ["12CarDirectory0015arDirectory_sdjC", "exit"]
+- ["12CarDirectory0015arDirectory_sdjC", "init"]
+- ["12CarDirectory0015arDirectory_sdjC", "run"]
+- !private ["12CarDirectory0015arDirectory_sdjC", "userConnection"]
+depends-nominal:
+- !private "12CarDirectory0A7StorageC"
+- "12CarDirectory8CommandsO"
+- "SQ"
+- "SH"
+- "12CarDirectory14UserConnectionC"
+- "12CarDirectory0015arDirectory_sdjC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3a6702ebcf4834e1f0cc4301dc39b483"
