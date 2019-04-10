@@ -5,15 +5,12 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "CarStorage"
 - "carDirectory"
 - "\u0421arDirectory"
 depends-member:
-- ["12CarDirectory0A7StorageC", "init"]
 - ["12CarDirectory0015arDirectory_sdjC", "init"]
 - ["12CarDirectory0015arDirectory_sdjC", "run"]
 depends-nominal:
-- "12CarDirectory0A7StorageC"
 - "12CarDirectory0015arDirectory_sdjC"
 depends-dynamic-lookup:
 depends-external:
@@ -34,4 +31,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4d57a0adc02a523608a2fc88a9c2622d"
+interface-hash: "19847f550887a01f9f5ac157d157718f"

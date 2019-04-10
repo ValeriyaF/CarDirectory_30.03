@@ -7,7 +7,6 @@ provides-member:
 - ["12CarDirectory0015arDirectory_sdjC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CarStorage"
 - !private "Commands"
@@ -19,26 +18,30 @@ depends-top-level:
 depends-member:
 - !private ["12CarDirectory0A7StorageC", "append"]
 - !private ["12CarDirectory0A7StorageC", "cars"]
+- ["12CarDirectory0A7StorageC", "init"]
 - !private ["12CarDirectory0A7StorageC", "modify"]
 - !private ["12CarDirectory0A7StorageC", "remove"]
 - ["12CarDirectory8CommandsO", "addCar"]
 - ["12CarDirectory8CommandsO", "close"]
 - ["12CarDirectory8CommandsO", "removeCar"]
 - ["12CarDirectory8CommandsO", "showAllCars"]
+- ["12CarDirectory8CommandsO", "showHelp"]
 - ["12CarDirectory8CommandsO", "updateCar"]
 - ["SQ", "addCar"]
 - ["SQ", "close"]
 - ["SQ", "removeCar"]
 - ["SQ", "showAllCars"]
+- ["SQ", "showHelp"]
 - ["SQ", "updateCar"]
 - ["SH", "addCar"]
 - ["SH", "close"]
 - ["SH", "removeCar"]
 - ["SH", "showAllCars"]
+- ["SH", "showHelp"]
 - ["SH", "updateCar"]
 - !private ["12CarDirectory14UserConnectionC", "getCurrentCar"]
 - !private ["12CarDirectory14UserConnectionC", "getNewCar"]
-- !private ["12CarDirectory14UserConnectionC", "getUserComand"]
+- !private ["12CarDirectory14UserConnectionC", "getUserCommand"]
 - ["12CarDirectory14UserConnectionC", "init"]
 - !private ["12CarDirectory14UserConnectionC", "printSuccessMsg"]
 - !private ["12CarDirectory14UserConnectionC", "printWrongMsg"]
@@ -53,7 +56,7 @@ depends-member:
 - ["12CarDirectory0015arDirectory_sdjC", "run"]
 - !private ["12CarDirectory0015arDirectory_sdjC", "userConnection"]
 depends-nominal:
-- !private "12CarDirectory0A7StorageC"
+- "12CarDirectory0A7StorageC"
 - "12CarDirectory8CommandsO"
 - "SQ"
 - "SH"
@@ -78,4 +81,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3a6702ebcf4834e1f0cc4301dc39b483"
+interface-hash: "c8d4c95eda25912c7a7912623688ea96"

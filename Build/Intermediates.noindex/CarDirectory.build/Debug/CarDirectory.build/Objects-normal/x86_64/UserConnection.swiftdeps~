@@ -13,8 +13,11 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Car"
 - "Commands"
+- !private "FloatLiteralType"
 - !private "Int"
+- !private "IntegerLiteralType"
 - "String"
+- "StringLiteralType"
 - "UnicodeScalarType"
 - "UserConnection"
 - !private "_findStringSwitchCase"
@@ -53,6 +56,7 @@ depends-member:
 - !private ["12CarDirectory8CommandsO", "close"]
 - !private ["12CarDirectory8CommandsO", "removeCar"]
 - !private ["12CarDirectory8CommandsO", "showAllCars"]
+- !private ["12CarDirectory8CommandsO", "showHelp"]
 - !private ["12CarDirectory8CommandsO", "updateCar"]
 - !private ["SL", "init"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
@@ -243,7 +247,7 @@ depends-member:
 - !private ["12CarDirectory14UserConnectionC", "_findStringSwitchCase"]
 - ["12CarDirectory14UserConnectionC", "getCurrentCar"]
 - ["12CarDirectory14UserConnectionC", "getNewCar"]
-- ["12CarDirectory14UserConnectionC", "getUserComand"]
+- ["12CarDirectory14UserConnectionC", "getUserCommand"]
 - ["12CarDirectory14UserConnectionC", "init"]
 - !private ["12CarDirectory14UserConnectionC", "print"]
 - ["12CarDirectory14UserConnectionC", "printSuccessMsg"]
@@ -358,4 +362,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e3301da93ab06b5de3ed217cad11abd3"
+interface-hash: "1736424d18eff01a34b962805f7f9ddf"

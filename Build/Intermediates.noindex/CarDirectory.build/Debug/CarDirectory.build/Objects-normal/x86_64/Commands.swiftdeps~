@@ -9,6 +9,8 @@ provides-dynamic-lookup:
 depends-top-level:
 - "=="
 - "Commands"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 depends-member:
 - ["12CarDirectory8CommandsO", "=="]
 - ["12CarDirectory8CommandsO", "__derived_enum_equals"]
@@ -20,6 +22,7 @@ depends-member:
 - ["12CarDirectory8CommandsO", "hashValue"]
 - ["12CarDirectory8CommandsO", "removeCar"]
 - ["12CarDirectory8CommandsO", "showAllCars"]
+- ["12CarDirectory8CommandsO", "showHelp"]
 - ["12CarDirectory8CommandsO", "updateCar"]
 - ["SQ", "=="]
 - ["SQ", ""]
@@ -56,4 +59,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "682041d949749ae17535cf4658f0d270"
+interface-hash: "5bc3552037dcf31be5b2250eeb11a7bd"

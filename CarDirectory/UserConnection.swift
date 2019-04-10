@@ -22,11 +22,11 @@ class UserConnection {
         case escapingMsg = "See you later"
     }
     
-    internal func getUserComand() -> Commands {
+    internal func getUserCommand() -> Commands {
         while let input = readLine() {
             switch input {
             case CommandsStr.showHelp.rawValue:
-                showHelp()
+                return Commands.showHelp
             case CommandsStr.showAllCars.rawValue:
                 return Commands.showAllCars
             case CommandsStr.addCar.rawValue:
@@ -45,14 +45,15 @@ class UserConnection {
         return Commands.close
     }
     
-    internal func showHelp() {
+    internal func printHelp() {
         print("""
                 ---------------------------------------
-                Print 'all' to show all your cars
-                Print 'add' to add a new car
-                Print 'upd' to update your car by №
-                Print 'rm' to remove your car by №
-                    Print 'esc' to exit
+                Print '\(CommandsStr.showHelp.rawValue)' to show help
+                Print '\(CommandsStr.showAllCars)' to show all your cars
+                Print '\(CommandsStr.addCar.rawValue)' to add a new car
+                Print '\(CommandsStr.updateCar.rawValue)' to update your car by №
+                Print '\(CommandsStr.removeCar.rawValue)' to remove your car by №
+                    Print '\(CommandsStr.close.rawValue)' to exit
                 ---------------------------------------
                 """)
     }

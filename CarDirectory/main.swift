@@ -1,5 +1,5 @@
 import Foundation
 
 
-let carDirectory: СarDirectory = СarDirectory(carStorage: CarStorage())
+let carDirectory: СarDirectory = СarDirectory()
 carDirectory.run()
